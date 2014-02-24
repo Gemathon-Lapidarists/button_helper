@@ -6,11 +6,11 @@ require 'button_helper/version'
 Gem::Specification.new do |spec|
   spec.name          = "button_helper"
   spec.version       = ButtonHelper::VERSION
-  spec.authors       = ["Nayana-Bhagat" "Vaibhav Kohli" "Ankita Kanitkar"]
+  spec.authors       = ["Nayana-Bhagat"  "Vaibhav Kohli"  "Ankita Kanitkar"]
   spec.email         = ["Nayana_Bhagat@external.mckinsey.com"]
   spec.summary       = %q{Helper method to give cuztomised button class}
   spec.description   = %q{Helper method to give cuztomised button class}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/Gemathon-Lapidarists/button_helper"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
