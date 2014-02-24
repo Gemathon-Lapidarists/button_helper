@@ -1,6 +1,6 @@
 # ButtonHelper
 
-TODO: Write a gem description
+Simple Gem to customize your button class
 
 ## Installation
 
@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ ButtonHelper::btn_class(status)
+ 
+ Status can be either success/failure/progress 
+ 
+## Sample Usage
+
+ In the view
+ ```ruby
+    <%= button_to 'New User', new_user_path,class: ButtonHelper::btn_class("success") %>
+ ```
+ 
+ In CSS file, style it according to the requirements
+ 
+ ```ruby
+  .progress { color:blue; }
+  .success { color: green; }
+  .failure { color:red; }
+ ``` 
 
 ## Contributing
 
